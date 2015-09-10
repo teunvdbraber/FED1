@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aanmelden</title>
+</head>
+<body>
+    <h1>Aanmelden</h1>
+    <p>Bent u geïnteresseerd in samenwerken met CMD Amsterdam? Dat kan!<br>
+Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook lopen de studenten stage, in het tweede en afstudeerjaar.</p>
+
+    <p><em>CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad Amsterdam.</em></p>
+
+
+    <p>Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen.
+Wij nemen zo nodig contact met u op nadat het formulier is verstuurd.
+Voor vragen of opmerkingen kunt u <a href="#">contact</a> met ons opnemen.</p>
+   <fieldset>
+
+       <h2>Contactgegevens</h2>
+
+        <label>Naam</label>
+        <input type="text" name="Volledige naam">
+        <label>Bedrijf</label>
+        <input type="text" name="Bedrijf">
+        <label>Adres</label>
+        <input type="text" name="Adres">
+        <label>Postcode</label>
+        <input type="text" name="Postcode" maxlength="6">
+        <label>Woonplaats</label>
+        <input type="text" name="Woonplaats">
+        <label>Telefoonnummer</label>
+        <input type="text" name="Telefoonnummer">
+        <label>E-mail</label>
+        <input type="text" name="e-mail">
+        </fieldset>
+
+        <fieldset>
+        <label>Ik wil mij aanmelden</label>
+        <input type="radio" name="aanmelden" value="Voor een project.">Voor een project
+        <input type="radio" name="aanmelden" value="Als stagebedrijf">Als stagebedrijf
+        </fieldset>
+    </form>
+
+    <form>
+    <section>
+       <fieldset>
+
+        <h2>Project</h2>
+
+        <label>Titel</label>
+        <input type="text" name="titel">
+        <label>Opdrachtomschrijving</label>
+        <input type="text" name="Opdrachtomschrijving">
+        <label>Doelgroepomschrijving</label>
+        <input type="text" name="Doelgroepomschrijving">
+        <label>Doelstelling/ intentie van het project</label>
+        <input type="text" name="Doelstelling">
+        <label>Looptijd</label>
+        <input type="text" name="Looptijd">
+        <label>Deadline</label>
+        <input type="text" name="Deadline">
+        </fieldset>
+        <fieldset>
+        <p>Geschikt voor</p>
+        <input type="checkbox" name="geschikt">eerstejaars studenten
+        <input type="checkbox" name="geschikt">tweedejaars studenten
+        <input type="checkbox" name="geschikt">derdejaars studenten
+        <input type="checkbox" name="geschikt">afstudeer studenten
+        <input type="checkbox" name="geschikt">onbekend
+        </fieldset>
+
+        <fieldset>
+        <p>Opmerking</p>
+        <input type="text" name="opmerking">
+        </fieldset>
+        </section>
+        </form>
+
+    <form>
+      <section>
+        <fieldset>
+       <h2>Stage</h2>
+        <p>Beschrijving stagebedrijf</p>
+        <label>Bedrijfsnaam</label>
+        <input type="text" name="Bedrijfsnaam">
+        <label>Adres</label>
+        <input type="text" name="Adres">
+        <label>Postcode</label>
+        <input type="text" name="Postcode" maxlength="6">
+        <label>Plaats</label>
+        <input type="text" name="Plaats">
+        <label>Sector</label>
+        <input type="text" name="Sector">
+        <label>Core Business</label>
+        <input type="text" name="Core Business">
+        </fieldset>
+
+        <fieldset>
+        <p>Geschikt voor</p>
+        <input type="checkbox" name="geschikt">tweeedejaars studenten
+        <input type="checkbox" name="geschikt">afstudeer studenten
+        <input type="checkbox" name="geschikt">onbekend
+        </fieldset>
+
+        <fieldset>
+        <p>Hoe lang is de stage?</p>
+        <input type="radio" name="stage" value="10 weken">10 weken
+        <input type="radio" name="stage" value="10 weken">10 weken
+        </fieldset>
+
+        <fieldset>
+        <p>Beschrijving werkzaamheden:</p>
+        <input type="text" name="Deadline"><br>
+        </fieldset>
+
+
+
+        <fieldset>
+        <label>Begin datum</label>
+        <input type="date" name="Datum">
+        </fieldset>
+
+        <fieldset>
+        <label>Opmerking</label>
+
+        <input type="text" name="Opmerking2">
+        </fieldset>
+        </section>
+        </form>
+</body>
+</html>
