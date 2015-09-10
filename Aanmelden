@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aanmelden</title>
+</head>
+<body>
+    <h1>Aanmelden</h1>
+    <p>Bent u geïnteresseerd in samenwerken met CMD Amsterdam? Dat kan!<br>
+Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook lopen de studenten stage, in het tweede en afstudeerjaar.</p>
+
+    <p><em>CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad Amsterdam.</em></p>
+
+
+    <p>Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen.
+Wij nemen zo nodig contact met u op nadat het formulier is verstuurd.
+Voor vragen of opmerkingen kunt u <a href="#">contact</a> met ons opnemen.</p>
+    <p>Contactgegevens:<p>
+    <form>
+
+       <section>
+        Naam:
+        <input type="text" name="Volledige naam">
+        Bedrijf:
+        <input type="text" name="Bedrijf">
+        Adres:
+        <input type="text" name="Adres">
+        Postcode:
+        <input type="text" name="Postcode" maxlength="6">
+        Plaats:
+        <input type="text" name="Woonplaats">
+        Telefoon:
+        <input type="text" name="Telefoonnummer">
+        Email:
+        <input type="text" name="e-mail">
+        </section>
+        <section>
+        <p>Ik wil mij aanmelden:</p>
+        <input type="radio" name="aanmelden" value="Voor een project.">Voor een project
+        <input type="radio" name="aanmelden" value="Als stagebedrijf">Als stagebedrijf
+        </section>
+    </form>
+
+    <form>
+        <h2>Project</h2>
+        <section>
+        Titel
+        <input type="text" name="titel">
+        Opdrachtomschrijving
+        <input type="text" name="Opdrachtomschrijving">
+        Doelgroepomschrijving
+        <input type="text" name="Doelgroepomschrijving">
+        Doelstelling/ intentie van het project
+        <input type="text" name="Doelstelling">
+        Looptijd
+        <input type="text" name="Looptijd">
+        Deadline
+        <input type="text" name="Deadline">
+        </section>
+        <section>
+        <p>Geschikt voor</p>
+        <input type="checkbox" name="geschikt">eerstejaars studenten
+        <input type="checkbox" name="geschikt">tweedejaars studenten
+        <input type="checkbox" name="geschikt">derdejaars studenten
+        <input type="checkbox" name="geschikt">afstudeer studenten
+        <input type="checkbox" name="geschikt">onbekend
+        </section>
+
+        <section>
+        <p>Opmerking</p>
+        <input type="text" name="opmerking">
+        </section>
+        </form>
+    <form>
+       <h2>Stage</h2>
+        <section>
+       <p>Geschikt voor</p>
+        <input type="checkbox" name="geschikt">tweeedejaars studenten
+        <input type="checkbox" name="geschikt">afstudeer studenten
+        <input type="checkbox" name="geschikt">onbekend
+
+        <p>Hoe lang is de stage?</p>
+        <input type="radio" name="stage" value="10 weken">10 weken
+        <input type="radio" name="stage" value="10 weken">10 weken
+
+        <p>Beschrijving werkzaamheden:</p>
+        <input type="text" name="Deadline"><br>
+        </section>
+        <section>
+        <p>Beschrijving stagebedrijf</p>
+        Bedrijfsnaam
+        <input type="text" name="Bedrijfsnaam">
+        Adres
+        <input type="text" name="Adres">
+        postcode
+        <input type="text" name="Postcode" maxlength="6">
+        Plaats
+        <input type="text" name="Plaats">
+        Sector
+        <input type="text" name="Sector">
+        Core Business
+        <input type="text" name="Core Business">
+
+        <p>Begin datum</p>
+        <input type="date" name="Datum">
+
+        <p>Opmerking</p>
+
+        <input type="text" name="Opmerking2">
+        </section>
+    </form>
+</body>
+</html>
